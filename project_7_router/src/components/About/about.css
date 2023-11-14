@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 170px 0 150px;
+    gap: 40px;
+    
+}
+.about{
+   background: url('./pexels-pixabay-259915.jpg') center/cover no-repeat;
+    
+}
+.photo img{
+    box-shadow: 0 5px 10px black;
+    
+}
+.photo img:hover{
+    box-shadow: 0 10px 20px black;
+    
+}
+.intro{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 100px;
+    font-size: large;
+    
+}
+ p{
+    padding: 10px;
+    background-color: rgba(244, 240, 241, 0.499);
+}

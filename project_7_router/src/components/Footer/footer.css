@@ -1,0 +1,42 @@
+.upperFooter{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 80px;
+    margin:0 150px 0 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+.quickLinks ul {
+    list-style:disc;
+
+    }
+.skills ul {
+    list-style: disc;
+    
+    }
+li{
+    margin: 9px 0 0 0;
+}
+.acounts ul li img{
+    width: 30px;
+    height: 30px;
+    
+    }
+.acounts ul li img:hover{
+    background-color: yellow;
+    
+    }
+.acounts ul li{
+    list-style: none;
+    
+    }
+
+.loweFooter{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px 0 200px;
+    }
+.acounts ul{
+    display: flex;
+    gap: 20px;
+
+}

@@ -1,0 +1,60 @@
+.contact{
+    background: url('./contact-us-page-blue-background.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.contact_box{
+    margin: 50px 0 100px 0;
+    padding: 20px 20px 50px 10px;
+    background-color: aqua;
+    border: 5px solid rgb(11, 13, 116);
+    border-radius: 10px ;
+}
+.inputs input{
+    display: flex;
+    
+    flex-direction: column;
+    margin: 30px;
+    width: 300px;
+    padding: 15px 50px 0 0 ;
+    border:none;
+    outline: none;
+    font-size: 17px;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    color: green;
+}
+.inputs input:focus{
+    color: rgb(0, 30, 255);
+}
+.inputs input::placeholder{
+    color: black;
+}
+.btn {
+    margin: auto;
+    text-align: center;
+    
+}
+.btn button {
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 0, 237);
+    font-size: 15px;
+    box-shadow: 0 2px 5px black;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    
+}
+.btn button:hover {
+    background-color: orange;
+    box-shadow: 0 4px 10px black;
+    
+}
+.heading{
+    padding: 0%;
+    text-align: center;
+    color: white;
+    text-shadow: 0 2px 4px black;
+}
